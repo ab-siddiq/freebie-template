@@ -1,0 +1,36 @@
+body{
+    font-family: roboto;
+}
+@font-face{
+    font-family: "montserrat";
+    src: url("assets/fonts/Montserrat-ExtraBold.ttf");
+}
+@font-face{
+    font-family: "roboto";
+    src: url("assets/fonts/Roboto-Regular.ttf");
+}
+
+.montserrat{font-family: montserrat;}
+.roboto{font-family: roboto;}
+/*@media only screen and (max-width: 1100px){}*/
+.container{
+    width: 80%; padding: 20px 0;
+}
+p{color: #c8c9cb;}
+.banner img{width: 100%;height: 300px}
+.menu{background-color: #30344f;}
+.menu .container{padding: 0;}
+hr{color:  red; height: 4px;}
+.menu-content{padding: 100px 0;}
+.caro-bg{background-color: #52354b;}
+.member i{width: 30px;padding: 5px; color: #d1d5d8; border: 1px solid #d1d5d8;}
+.opinion .img{width: 100%;  height: 100px}
+.footer-top{background-color: #3a3e64;}
+.footer-top i{width: 30px; padding: 5px; color: #fff; border: 1px solid #fff;}
+.footer-bottom{background-color: #313455;}
+
+@media screen only and (max-width:545px){
+    .footer-top .row{text-align: center}
+}
+i:hover{color: #e8534f; border: 1px solid #e8534f;}
+.img{background-image: url("assets/images/opinion.png"); background-position: 0 0;background-repeat: no-repeat; background-size: cover;width: 100%; }
